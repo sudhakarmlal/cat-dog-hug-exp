@@ -11,7 +11,7 @@ license: cc
 ---
 
 
-[![Sync to Hugging Face hub](https://github.com/sudhakar272/hugging-face/actions/workflows/main.yml/badge.svg)](https://github.com/sudhakar272/hugging-face/actions/workflows/main.yml)
+[![Sync to Hugging Face hub](https://github.com/sudhakar272/cat-dog-hug-exp/actions/workflows/main.yml/badge.svg)](https://github.com/sudhakar272/cat-dog-hug-exp/actions/workflows/main.yml)
 
 
 [Try Demo Text Summarization Here](https://huggingface.co/spaces/noahgift/demo)
