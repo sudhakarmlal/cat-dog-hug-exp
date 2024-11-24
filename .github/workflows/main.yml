@@ -14,7 +14,12 @@ jobs:
         with:
           fetch-depth: 0
           lfs: true
-      - name: Add remote  
+      - name: Add remote
+        shell: bash
+        run: |
+          sudo apt update
+          sudo apt-get install -y git-lfs
+      - name: Add remote
         env:
           HF: ${{ secrets.HF }}
         run: git remote add space https://noahgift:$HF@huggingface.co/spaces/sudhakar272/CatDogDemo
