@@ -27,5 +27,9 @@ jobs:
       - name: Push to hub
         env:
           HF: ${{ secrets.HF }}
-        run: git push --force https://sudhakar272:$HF@huggingface.co/spaces/sudhakar272/CatDogDemo main
+          
+        run: |
+        
+         git lfs migrate import --everything --include "model.pt"
+         git push --force https://sudhakar272:$HF@huggingface.co/spaces/sudhakar272/CatDogDemo main
 
